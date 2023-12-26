@@ -18,6 +18,8 @@ import Darkmode from './pages/section/Darkmode';
 
 function App() {
 
+  // Branch 2 created and save 
+
   const isLoggedIn = useSelector((state) => state.auth.isAuthenticate);
   const isDarkMode = useSelector((state) => state.darkmode.isDarkmode);
 

@@ -18,8 +18,6 @@ import Darkmode from './pages/section/Darkmode';
 
 function App() {
 
-  // My Version 2
-
   const isLoggedIn = useSelector((state) => state.auth.isAuthenticate);
   const isDarkMode = useSelector((state) => state.darkmode.isDarkmode);
 
